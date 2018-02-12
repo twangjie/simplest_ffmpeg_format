@@ -67,6 +67,9 @@ int main(int argc, char* argv[])
 	const char *out_filename_a = "cuc_ieschool.aac";
 
 	av_register_all();
+
+
+
 	//Input
 	if ((ret = avformat_open_input(&ifmt_ctx, in_filename, 0, 0)) < 0) {
 		printf( "Could not open input file.");
